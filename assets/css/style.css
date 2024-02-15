@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+section{
+    display: flex;
+    padding: 2%;
+    min-height: 100vh;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    max-width: 375px;
+    width: 100%;
+    padding: 40px 30px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.social-profile{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.social-profile-image{
+    width: 75px;
+    border-radius: 50%;
+}
+
+.social-profile-info h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.social-profile-info h2{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: hsl(75, 94%, 57%);
+}
+
+.social-profile-desc{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.social-container-links{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.social-container-links a{
+    display: flex;
+    width: 100%;
+    transition: .3s;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.social-container-links a:hover{
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+}
